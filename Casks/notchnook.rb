@@ -12,4 +12,12 @@ cask "notchnook" do
   depends_on arch: :arm64
 
   app "NotchNook.app"
+
+  uninstall quit: "lo.cafe.NotchNook"
+
+  zap trash: [
+    "~/Library/Caches/lo.cafe.NotchNook",
+    "~/Library/HTTPStorages/lo.cafe.NotchNook",
+    "~/Library/Preferences/lo.cafe.NotchNook.plist",
+  ]
 end
