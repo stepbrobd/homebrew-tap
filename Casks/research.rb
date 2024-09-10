@@ -17,5 +17,9 @@ cask "research" do
 
   uninstall quit: "research.un.ms"
 
-  zap trash: "~/Library/Caches/research.un.ms"
+  zap trash: [
+    "~/Library/Application Support/research.un.ms",
+    "~/Library/Caches/research.un.ms",
+    "~/UNMS/Research",
+  ]
 end
