@@ -1,6 +1,6 @@
 cask "opentabletdriver" do
-  version "0.6.5.1"
-  sha256 "b772a47a48be2b3e18c89cf3ef212d83090678e136b8e866c7191dbb10f63ea8"
+  version "0.6.6.0"
+  sha256 "0dc978eeab05f7903a49a10b6d7020f3179cb2aa2a2b5cabe0755c14608cce76"
 
   url "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v#{version}/OpenTabletDriver-#{version}_osx-x64.tar.gz",
       verified: "github.com/OpenTabletDriver/OpenTabletDriver/"
