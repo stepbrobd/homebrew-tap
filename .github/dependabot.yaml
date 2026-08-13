@@ -1,0 +1,15 @@
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: cron
+      cronjob: "0 0 * * *"
+      timezone: "Etc/UTC"
+    commit-message:
+      prefix: "ci"
+    groups:
+      actions:
+        patterns:
+          - "*"
