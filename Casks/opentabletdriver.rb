@@ -1,6 +1,6 @@
 cask "opentabletdriver" do
-  version "0.6.6.0"
-  sha256 "0dc978eeab05f7903a49a10b6d7020f3179cb2aa2a2b5cabe0755c14608cce76"
+  version "0.6.7"
+  sha256 "c4b0d9eb2aee8ee7be12d0df80f961ea0a7235f54b5f59a2b62efa9b9ec4910e"
 
   url "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v#{version}/OpenTabletDriver-#{version}_osx-x64.tar.gz",
       verified: "github.com/OpenTabletDriver/OpenTabletDriver/"
@@ -14,6 +14,7 @@ cask "opentabletdriver" do
   end
 
   auto_updates true
+  depends_on :macos
 
   app "OpenTabletDriver.app"
 
