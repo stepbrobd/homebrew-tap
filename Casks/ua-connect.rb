@@ -7,7 +7,7 @@ cask "ua-connect" do
   desc "Universal Audio plugin installer"
   homepage "https://www.uaudio.com/downloads/ua-connect"
 
-  depends_on macos: :catalina
+  depends_on :macos
 
   app "UA Connect.app"
 
