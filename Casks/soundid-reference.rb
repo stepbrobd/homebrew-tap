@@ -7,7 +7,7 @@ cask "soundid-reference" do
   desc "Speaker and headphone calibration software"
   homepage "https://www.sonarworks.com/soundid-reference"
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   installer manual: "SoundID Reference.app"
 
